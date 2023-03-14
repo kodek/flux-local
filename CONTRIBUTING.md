@@ -1,3 +1,18 @@
+## Prerequisites
+
+The following additional CLI tools are required for development:
+
+- [kustomize](https://kustomize.io/)
+- [helm](https://helm.sh/)
+- [flux](https://fluxcd.io/)
+- [kyverno](https://kyverno.io/)
+
+Using [Homebrew](https://brew.sh/), you may install them as follows:
+
+```bash
+brew install kustomize helm fluxcd/tap/flux kyverno
+```
+
 ## Python virtual environment
 
 Python virtual environments are used to isolate python projects from each other.
